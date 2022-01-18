@@ -135,7 +135,7 @@ table, tr, td{
 margin-bottom: 20%;
 }
 
-.carousel slide {
+.carousel-item {
 border: 10px;
     width: 70%;
     height: 45%;
