@@ -134,9 +134,3 @@ table, tr, td{
 #bot {
 margin-bottom: 20%;
 }
-
-.carousel-item {
-border-radius: 10px;
-    width: 70%;
-    height: 45%;
-}
