@@ -134,3 +134,9 @@ table, tr, td{
 #bot {
 margin-bottom: 20%;
 }
+
+.carousel slide {
+border: 10px;
+    width: 70%;
+    height: 45%;
+}
