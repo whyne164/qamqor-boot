@@ -13,6 +13,17 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <title>Qamqor - website for charity</title>
     <link rel="icon" href="img/logo.jpeg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $("#hide").click(function(){
+    $(".hidy").hide();
+  });
+  $("#show").click(function(){
+    $(".hidy").show();
+  });
+});
+    </script>
 </head>
 <body>
 
@@ -26,6 +37,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="./funds.html">Funds</a></li>
             <li class="nav-item"><a class="nav-link" href="./volunteers.html">Volunteers</a></li>
+            <li class="nav-item"><a class="nav-link" href="./emotions.html">Emotional support</a></li>
             <li class="nav-item"><a class="nav-link" href="./conacts.html">Contacts</a></li>
         </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -37,7 +49,7 @@
 
     <section class="funds1">
         <h1>Charity funds</h1>
-        <p>Charity is the provision of free assistance or donation of funds in order to help other people or animals. In simple words, charity is a good deed.</p>
+        <h4>Charity is the provision of free assistance or donation of funds in order to help other people or animals. In simple words, charity is a good deed.</p>
         <div class="row">
             <div class="funds1__col">
                 <img src="./img/qar.jpg">
@@ -58,17 +70,78 @@
                 <a href="https://instagram.com/club_dobryakov_astana?utm_medium=copy_link" class="button"><button type="button" class="btn btn-outline-dark">Donate</button></a>
             </div>
         </div>
+        <button type="button" class="btn btn-light" id="show" align="center"><h5>See more</h5></button>
     </section>
-<h5 align="center">Hope that information was useful <span class="badge badge-secondary">&#9829</span></h5>
+
+    
+    
+    <section class="hidy">
+    <div id="div" style="margin: 0% 8.5%;">
+        <div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="./img/logo2.jpeg" class="card-img-top" alt="FPRK">
+      <div class="card-body">
+        <h5 class="card-title">Fund of the FPRK</h5>
+        <p class="card-text">It is the largest non-profit foundation in Kazakhstan, whose activities are based on the principles of professional management and consistency of all projects.
+            The Foundation was established in 2000 on the personal initiative of Nursultan Nazarbayev. The Mission of fund is to develop the limitless potential of society by helping talented youth and supporting socially significant social projects.</p>
+          <ul class="list-group list-group-flush">
+             <li class="list-group-item">Address: 010018, Nur-Sultan, str. A.Bokeikhan, 1, "Nazarbayev Center"</li>
+             <li class="list-group-item">Contacts: +7 (7172) 70 83 04</li>
+             <li class="list-group-item">E-mail: Astana_fond@fpp.kz</li>
+          </ul>
+          <a href="https://fnn.kz/" class="card-link">Official website</a>
+        </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="./img/logosabi.jpeg" class="card-img-top" alt="Sabi">
+      <div class="card-body">
+        <h5 class="card-title">The Sabi Foundation</h5>
+        <p class="card-text">It provides assistance to orphans and childrens without parental care, talented children from socially unprotected families, children with serious health problems, as well as, expanding the boundary of the main goals, people with disabilities. The main focus of the Foundation's work: <br>
+                -children's health and their physical development<br>
+                -spirituality and accessibility of education<br>
+                The mission of the Sabi Foundation is to promote public understanding of the sphere of charity, to make philanthropy effective for beneficiaries and attractive for sponsors.</p>
+          <ul class="list-group list-group-flush">
+             <li class="list-group-item">Address: Almaty, Dostyk Ave., 250</li>
+             <li class="list-group-item">Contacts: +7 (727) 311 29 38</li>
+             <li class="list-group-item">E-mail: saby@saby.kz</li>
+          </ul>
+          <a href="http://saby.kz/ru" class="card-link">Official website</a>
+        </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="./img/logohareket.jpeg" class="card-img-top" alt="haraket">
+      <div class="card-body">
+        <h5 class="card-title">Charity Foundation “Харекет”</h5>
+        <p class="card-text">The purpose of foundation is to help needy families buy a house and collect charity boxes. After each collection, a family search is carried out and documents are checked, criteria are considered. Finding sponsors, partners and holding events helps in collecting. Thanks to this fund, many families have already purchased their home and were pleased.</p>
+        <ul class="list-group list-group-flush">
+             <li class="list-group-item">Address: 050033, Almaty, a. Alatau, 133A Ryskulova Ave., office 25</li>
+             <li class="list-group-item">Contacts: 8-727-221-91-91</li>
+             <li class="list-group-item">E-mail: Hareketalmaty@mail.ru </li>
+          </ul>
+          <a href="https://xareket.kz/ru" class="card-link">Official website</a>
+        </div>
+    </div>
+  </div>
+  
+</div>
+<div class="funds1" id="bot">
+<button type="button" class="btn btn-light" id="hide"><h5>See less</h5></button></div>
+</div>
+
+</section>
+
  <!--footer section-->
  <section class="footer">
     <h4>Wanna know more</h4> 
     <p>Charity is the provision of free assistance or donation of funds in order to help other people or animals. <br>In simple words, charity is a good deed.</p>
-        <a href="https://www.instagram.com/p/CRwOSsEgaG6/?utm_medium=copy_link"><i class="fab fa-instagram-square"></i></a>
-        <a href="https://www.facebook.com/aruka.enchante"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://mobile.twitter.com/world_wildlife"><i class="fab fa-twitter-square"></i></a>
 <p>Made with <i class="fas fa-heart"></i></p>
 </section>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
