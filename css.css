@@ -27,6 +27,11 @@ nav{
     text-align: center;
 }
 
+.ifr{
+    height:90vh;
+    width:80%;
+}
+
 #div{
     margin-bottom: 10%;
 }
